@@ -1,0 +1,116 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	margin: 0;
+	padding: 0;
+	background: #f5f5f5;
+	width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    overflow: auto;
+}
+.main{
+	display: flex;
+	flex-direction: column;
+    align-items: center;
+    padding: 80px 245px;
+    gap: 120px;
+    position: relative;
+    width: 1600px;
+    height: 625px;
+    background: #F5F5F5;
+    border-radius: 50px;
+    background-color: #fff;
+}
+.content{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0px;
+	gap: 176px;
+	width: 1110px;
+	height: 465px;
+}
+.pic{
+	display: flex;
+	justify-content: center;
+  	align-items: center;
+	width: 465px;
+    height: 465px;
+    background: linear-gradient(180deg, #FFE195 0%, #FF5B5B 100%);
+    border-radius: 70px;
+}
+.text{
+	display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 30px;
+    width: 465px;
+    height: 389px;
+}
+.tagline{
+	font-family: 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    color: black;
+    line-height: 140%;
+    width: 465px;
+    height: 210px;
+    margin: 0;
+}
+.offer{
+	width: 423px;
+    height: 50px;
+    font-family: 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 136.7%;
+    color:black;
+    margin: 0;
+}
+.button{
+	display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 22px 70px;
+    gap: 10px;
+    width: 219px;
+    height: 69px;
+    background: #FF6861;
+    border-radius: 100px;
+    font-family: 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 136.7%;
+    color: white;
+    text-decoration: none;
+    }
+.button:hover{
+	animation: 1.2s ease-in-out 0s normal none infinite running trambling-animation;
+}
+.cow{
+	width: 255px;
+	height: 255px;
+	}
+@keyframes trambling-animation {
+    0%, 50%, 100% {
+        transform: rotate(0deg);
+    }
+    10%, 30% {
+        transform: rotate(-10deg);
+    }
+    20%, 40% {
+        transform: rotate(10deg);
+    }	
